@@ -1,0 +1,31 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  max-height: 609px;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  
+ 
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 2s;
+    animation-delay: 2s;
+    
+  }
+}
+
